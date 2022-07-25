@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+<!-- NAVBAR  /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+
+
+    <nav class="navbar navbar-expand-lg bg-light fixed-top navbarScroll ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="image/Graduatelogo.svg" alt="Avatar Logo" style="width: 200px; height: 80px;" > 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav" >
+            <ul class="navbar-nav">
+              <li>
+                <a href="#demo">Home</a>
+              </li>
+              <li>
+                <a  href="#courses">Courses</a>
+              </li>
+              <li>
+                <a  href="#placements">Placements</a>
+              </li>
+              <li>
+                <a  href="#contactus">contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- CAROUSEL /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            
+            <img src="/image/bg1.jpg" class="d-block w-100" style="height: 900px; width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="image/bg2.jpg"  class="d-block w-100" style="height: 900px; width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="image/bg3.jpg"  class="d-block w-100" style="height: 900px; width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="image/bg4.jpg"  class="d-block w-100" style="height: 900px; width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="image/bg5.jpg"  class="d-block w-100" style="height: 900px; width:100%">
+          </div>
+        </div>
+        
+      </div>
+     
+
+    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+<!-- cards for showcase /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+
+<div class="row" id="firstcard">
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 230px; height: 280px;" id="showcase1">
+    <img src="/image/Training-hours.png" class="card-img-top" height=160; width="100"">
+    <p style="font-size: 20px;"><b>65000+<span>hrs</span></b></p>
+    <p class="card-text" style="font-size: 17px;">Training Conducted</p>
+  </div>
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 230px; height: 280px;" id="showcase2">
+    <img src="/image/activelearners.png" class="card-img-top" height=160; width="100"">
+    <p style="font-size: 20px;"><b>10000+</b></p>
+    <p class="card-text" style="font-size: 17px;">Active Learners</p>
+  </div>
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 230px; height: 280px;" id="showcase3">
+    <img src="/image/tieups.png" class="card-img-top" height=160; width="100"">
+    <p style="font-size: 20px;"><b>500+</b></p>
+    <p class="card-text" style="font-size: 17px;">Hiring Companies</p>
+  </div>
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 230px; height: 280px;" id="showcase4">
+    <img src="/image/salarydrawn.png" class="card-img-top" height=160; width="100"">
+    <p style="font-size: 20px;"><b>12.5 LPA</b></p>
+    <p class="card-text" style="font-size: 17px;">Highest Fresher Salary</p>
+  </div>
+
+</div>
+
+
+
+<!-- Cards /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+
+<h2 id="courses"> Courses</h2>
+
+<div class="row" >
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 22rem;" >
+    <img src="/image/java-icon.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Java</h5>
+      <p class="card-text">Learn Java with Tech-Hub and get the job guaranteed</p>
+      <a href="#" class="btn btn-primary "  data-bs-toggle="modal" data-bs-target="#myModal"><b>Get Java Course</b></a>
+    </div>
+  </div>
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 22rem;">
+    <img src="/image/angular-icon.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Angular</h5>
+      <p class="card-text">Learn Angular with Tech-Hub and get the job guaranteed</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><b>Get Angular Course</b></a>
+    </div>
+  </div>
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 22rem;">
+    <img src="/image/getbootstrap-icon.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bootstrap</h5>
+      <p class="card-text">Learn Bootstrap with Tech-Hub and get the job guaranteed</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><b>Get Bootstrap Course</b></a>
+    </div>
+  </div>
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 22rem;">
+    <img src="/image/python-icon.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Python</h5>
+      <p class="card-text">Learn Python with Tech-Hub and get the job guaranteed</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><b>Get Python Course</b></a>
+    </div>
+  </div>
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 22rem;">
+    <img src="/image/jquery-icon.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">JQUERY</h5>
+      <p class="card-text">Learn JQUERY with Tech-Hub and get the job guaranteed</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><b>Get JQUERY Course</b></a>
+    </div>
+  </div>  
+
+</div>
+
+
+<div class="row">
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 22rem;">
+    <img src="/image/javascript-icon.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">JavaScript</h5>
+      <p class="card-text">Learn JavaScript with Tech-Hub and get the job guaranteed</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><b>Get JavaScript Course</b></a>
+    </div>
+  </div>
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 22rem;">
+    <img src="/image/jquery-icon.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">JQUERY</h5>
+      <p class="card-text">Learn JQUERY with Tech-Hub and get the job guaranteed</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><b>Get JQUERY Course</b></a>
+    </div>
+  </div>
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 22rem;">
+    <img src="/image/mongodb-icon.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">MongoDB</h5>
+      <p class="card-text">Learn MongoDB with Tech-Hub and get the job guaranteed</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><b>Get MongoDB Course</b></a>
+    </div>
+  </div>
+  
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 22rem;">
+    <img src="/image/php-icon.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">PHP</h5>
+      <p class="card-text">Learn PHP with Tech-Hub and get the job guaranteed</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><b>Get PHP Course</b></a>
+    </div>
+  </div>
+
+  <div class="card text-center shadow p-3 mb-5 bg-body rounded" style="width: 22rem;" >
+    <img src="/image/java-icon.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Java</h5>
+      <p class="card-text">Learn Java with Tech-Hub and get the job guaranteed</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><b>Get Java Course</b></a>
+    </div>
+  </div>
+
+
+</div>
+
+<!-- accordion /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+
+
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       <b style="font-size: 20px;"> Why Choose us?</b>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        We have amazing variety of courses available at very reasonable price with full time faculty and additional support.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <b style="font-size: 20px;">What do we offer?</b>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        We're glad you asked. We offer guaranteed placemnets as we have multiple tie-ups with MNC's and start-ups.     
+       </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <b style="font-size: 20px; ">Search for the best ends here :)</b>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Check the details above by clicking on the course name and get a customized quote.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+
+
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Enter Your Number</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <input type="number" placeholder="Enter your number">
+              <input type="email" placeholder="Enter your email">
+              <p>Amazing! - We'll get back to you soon :)</p>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Save</button>
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+ <!-- Training process /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+   
+ 
+ <div id="process">
+    <h2 style="padding-bottom: 30px;">Our Training Process</h2>
+    <img src="/image/training_process_desktop.png" alt="">
+   </div>    
+
+  <!-- Association partners /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+<div id="association" class="text-center">
+  <p>Our Association Partners</p>
+  <img src="/image/asso1.png" height="200px" width="300px">
+  <img src="/image/asso2.png" height="200px" width="300px">
+  <img src="/image/asso3.png" height="200px" width="300px">
+</div>
+
+<!-- Placements /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+ 
+<h2 id="placements">Our Placements</h2>  <br>
+
+ <div class="main-carousel">
+  <div class="cell"><img src="/image/Accenture-logo.png" height="120px" width="230px"></div>
+  <div class="cell"><img src="/image/airtel.png" height="120px" width="230px"></div>
+  <div class="cell"><img src="/image/max-life.png" height="120px" width="230px"></div>
+  <div class="cell"><img src="/image/idbi_bank_transparent.png" height="120px" width="230px"></div>
+  <div class="cell"><img src="/image/jio-logo.png" height="120px" width="230px"></div>
+  <div class="cell"><img src="/image/capgemini.png" height="120px" width="230px"></div>
+  <div class="cell"><img src="/image/Deloitte.png" height="120px" width="230px"></div>
+  <div class="cell"><img src="/image/hp-transparent.png" height="120px" width="230px"></div>
+  <div class="cell"><img src="/image/reliance-industries-limited-logo-.png" height="120px" width="230px"></div>
+  <div class="cell"><img src="/image/TCS.png" height="120px" width="230px"></div>
+</div>
+
+
+<!-- Testimonials /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+<h2 class="text-center" style="padding-top: 50px;">Our Testimonials</h2>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+
+  <div class="carousel-inner" >
+
+    <div class="carousel-item active text-center w-100" data-bs-interval="10000" id="lastcar">
+      <img src="/image/plainebag2.webp" class=" text-center w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <img src="/image/t1.jpg" class="text-center rounded-circle">
+        <h2 style="color: rgb(15, 15, 15);">John Doe</h2>
+        <p style="font-size: 23px; color:rgb(37, 137, 150)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia iure deserunt sunt animi voluptates, voluptate dolorem molestias in, labore et reiciendis inventore maiores dolor ea earum expedita voluptatibus. Illo?</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="2000" id="lastcar">
+      <img src="/image/plainebag.jpg" class=" text-center w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <img src="/image/t1.jpg" class="text-center rounded-circle">
+        <h2 style="color: rgb(15, 15, 15);">John Doe</h2>
+        <p style="font-size: 23px; color:rgb(37, 137, 150)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia iure deserunt sunt animi voluptates, voluptate dolorem molestias in, labore et reiciendis inventore maiores dolor ea earum expedita voluptatibus. Illo?</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" id="lastcar">
+      <img src="/image/plainebag3.jpg" class="text-center w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <img src="/image/t1.jpg" class="text-center rounded-circle">
+        <h2 style="color: rgb(15, 15, 15);">John Doe</h2>
+        <p style="font-size: 23px; color:rgb(37, 137, 150)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia iure deserunt sunt animi voluptates, voluptate dolorem molestias in, labore et reiciendis inventore maiores dolor ea earum expedita voluptatibus. Illo?</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="2000" id="lastcar">
+      <img src="/image/plainebag.jpg" class=" text-center w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <img src="/image/t1.jpg" class="text-center rounded-circle">
+        <h2 style="color: rgb(15, 15, 15);">John Doe</h2>
+        <p style="font-size: 23px; color:rgb(37, 137, 150)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia iure deserunt sunt animi voluptates, voluptate dolorem molestias in, labore et reiciendis inventore maiores dolor ea earum expedita voluptatibus. Illo?</p>
+      </div>
+    </div>
+
+    <div class="carousel-item active text-center w-100" data-bs-interval="10000" id="lastcar">
+      <img src="/image/plainebag2.webp" class=" text-center w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <img src="/image/t1.jpg" class="text-center rounded-circle">
+        <h2 style="color: rgb(15, 15, 15);">John Doe</h2>
+        <p style="font-size: 23px; color:rgb(37, 137, 150)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia iure deserunt sunt animi voluptates, voluptate dolorem molestias in, labore et reiciendis inventore maiores dolor ea earum expedita voluptatibus. Illo?</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" id="lastcar">
+      <img src="/image/plainebag3.jpg" class="text-center w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <img src="/image/t1.jpg" class="text-center rounded-circle">
+        <h2 style="color: rgb(15, 15, 15);">John Doe</h2>
+        <p style="font-size: 23px; color:rgb(37, 137, 150)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia iure deserunt sunt animi voluptates, voluptate dolorem molestias in, labore et reiciendis inventore maiores dolor ea earum expedita voluptatibus. Illo?</p>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<!-- Contact us /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+
+
+
+<div id="contact" class="contact-area section-padding">
+	<div class="container">										
+		<div class="section-title text-center">
+			<h1 id="contactus">Contact us</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim. Aenean vitae metus in augue pretium ultrices.</p>
+		</div>					
+		<div class="row">
+			<div class="col-lg-7">	
+				<div class="contact">
+					<form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+						<div class="row">
+							<div class="form-group col-md-6">
+								<input type="text" name="name" class="form-control" placeholder="Name" required="required">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="email" name="email" class="form-control" placeholder="Email" required="required">
+							</div>
+							<div class="form-group col-md-12">
+								<input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+							</div>
+							<div class="form-group col-md-12">
+								<textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+							</div>
+							<div class="col-md-12 text-center">
+								<button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg btn-primary" title="Submit Your Message!">Send Message</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<div class="single_address">
+					<a href=""  data-bs-toggle="tooltip" data-bs-placement="top" title="Click to check address"><i class="bi bi-geo-alt"></i></a>
+					<h4>Our Address</h4>
+					<p>1st Floor Bina Apartments, Beside Ganpati Mandir Opposite Arasa Hotel, Near Andheri Metro Station, Andheri East, Mumbai, Maharashtra 400069</p>
+				</div>
+				<div class="single_address">
+					<a href=""  data-bs-toggle="tooltip" data-bs-placement="top" title="Click to send message"><i class="bi bi-chat-left-dots"></i></a>
+					<h4>Send your message</h4>
+					<p>Info@example.com</p>
+				</div>
+				<div class="single_address">
+					<a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to Call"><i class="bi bi-telephone"></i> </a>
+					<h4>Call us on</h4>
+					<p>+91 8956237415</p>
+				</div>
+				<div class="single_address">
+					<h4>Follow Us on</h4>
+          <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook" title="Click to get Facebook" data-bs-toggle="tooltip" data-bs-placement="bottom"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram" title="Click to get Instagram" data-bs-toggle="tooltip" data-bs-placement="bottom"></i></a>
+          <a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin" title="Click to get Linkedin" data-bs-toggle="tooltip" data-bs-placement="bottom"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter" title="Click to get Twitter" data-bs-toggle="tooltip" 
+          data-bs-placement="bottom"></i></a>
+					
+				</div>					
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="text-center" style="padding-top: 30px;">
+  Copyright © Tech-Hub Pvt. Ltd. 2012-2022 | <a href="Terms.html" target="_blank">Terms</a> | <a href="privacy.html" target="_blank">Privacy</a> | <a href="Refund.html" target="_blank">Refund</a> | <a href="Terms.html" target="_blank">Placements</a>
+</div>
+
+
+
+
+<!-- script /////////////////---------------------------------/////////////////////////------------------------------------------////////////////////////-->
+
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script>
+  $('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  wrapAround : true,
+  freeScroll: true,
+  interval: 1000
+});
+
+$('#recipeCarousel').carousel({
+  interval: 1000
+})
+
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+
+
+</body>
+</html>

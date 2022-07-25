@@ -1,0 +1,102 @@
+*,head,table{
+    margin:0px;
+    padding: 0px auto;
+}
+.container-fluid{
+    
+    background-color: #A1C6FF;
+}
+.navbar a{
+    margin-left: auto;
+    position: sticky;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card{
+   margin: 50px 50px 50px 50px;
+   padding: 20px 20px 20px 20px;
+   border-radius: 14px;
+   text-align: justify;
+}
+
+.row .card {
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}  
+.row .card{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.row .card:hover{
+    transition: all 1s;
+    transform: scale(0.9);
+}
+
+.navbar .navbar-nav li a{
+   padding: 30px;
+   text-decoration: none;
+   color: rgb(15, 15, 15);
+}
+.navbar-nav{
+    margin-left: 1300px;   
+}
+#courses{
+    text-decoration: none;
+    
+    text-align: center;
+}
+
+#placements{
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+}
+.accordion{
+    border: 2px;
+    padding-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.accordion-body{
+    font-size: 20px;
+}
+.accordion-button{
+    display:block;
+}
+#showcase1,#showcase2,#showcase3,#showcase4{
+    margin: 30px;
+   
+}
+#firstcard{
+    padding-bottom: 10px;
+    margin-left: 450px;
+}
+#showcase1,#showcase2,#showcase3,#showcase4:hover{
+transition: all 1s;
+transform: scale(1);
+}
+#process{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+#association{
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px ;
+    
+}
+#lastcar{
+    height: 500px;
+}
+i{
+    font-size: 1.5em;
+    letter-spacing: 8px;
+}
+#contactus{
+    padding-top: 30px;
+}
+  
